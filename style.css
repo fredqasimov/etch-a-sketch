@@ -1,0 +1,84 @@
+html{
+    height: 99%;
+    width: 99%;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 99%;
+    width: 99%;
+    background-color: rgb(87, 87, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 82%;
+    width: 90%;
+    border: 2px solid black;
+}
+.header{
+    font-size: 30px;
+    border: 3px dotted black;
+    margin: 3px;
+    padding: 2px;
+}
+.sketchContainer{
+    display: flex;
+    width: 96%;
+    height: 96%;
+    justify-content: space-between;
+}
+.colorBlock{
+    width: 50%;
+    height: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    flex-direction: column;
+}
+.sketch{
+    display: grid;
+    
+    border: 2px solid #a8dadc;
+    background-color: white;
+    border: 2px solid blue;
+    width: 450px;
+    height: 450px;
+}
+.grid{
+    border: 0.1px solid red;
+}
+button{
+    padding: 2px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color: rgb(244, 139, 10);
+    background-color: black;
+}
+.color {
+    width: 150px;
+    height: 150px;
+}
+.cubes{
+    -webkit-appearance: none;
+  margin-right: 15px;
+  width: 150px;
+  height: 7px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 7px;
+  background-image: linear-gradient(#000000, #000000);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.settings{
+    display: flex;
+}
+.inputValue{
+    font-size: 30px;
+}
